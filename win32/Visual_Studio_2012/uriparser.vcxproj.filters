@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{268f73c7-86bf-48be-9194-9cfc30cb5552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\uriparser">
+      <UniqueIdentifier>{99d584b5-49b8-4185-8186-a694337bda33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{4bd75457-433e-42bd-ad28-b2e88f4140fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\uriparser\Uri.h">
+      <Filter>include\uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uriparser\UriBase.h">
+      <Filter>include\uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uriparser\UriDefsAnsi.h">
+      <Filter>include\uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uriparser\UriDefsConfig.h">
+      <Filter>include\uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uriparser\UriDefsUnicode.h">
+      <Filter>include\uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\uriparser\UriIp4.h">
+      <Filter>include\uriparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\UriCommon.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\UriIp4Base.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\UriNormalizeBase.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\UriParseBase.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\UriCommon.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\UriCompare.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\UriEscape.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\UriFile.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\UriIp4.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\UriIp4Base.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\UriNormalize.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\UriNormalizeBase.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\UriParse.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\UriParseBase.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\UriQuery.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\UriRecompose.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\UriResolve.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\UriShorten.c">
+      <Filter>lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
